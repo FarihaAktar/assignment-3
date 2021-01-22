@@ -1,3 +1,4 @@
+// https://github.com/Farihaakter/assignment-3
 
 // convert kilometers to meters formula   
 
@@ -45,7 +46,7 @@ function budgetCalculator(watch, phone, laptop) {
 // Total cost of Hotel stay
 
 function hotelCost(stay) {
-    if (stay == null || stay < 0 || stay < 1 || stay % 1 != 0) {
+    if (stay == null || stay < 0 || stay % 1 != 0) {
         return "How many days you want to stay? Enter a positive integer number!"
     }
     else if (stay <= 10) {
