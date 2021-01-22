@@ -7,7 +7,7 @@ function kilometerToMeter(kilo) {
         return "Please Input a Number!";
     }
     else if (kilo < 0) {
-        return "Please Input a Positive Value!"
+        return "Please Input a Positive Value!";
     }
     else if (kilo == null) {
         return "Please Enter a Value...";
@@ -23,13 +23,13 @@ function kilometerToMeter(kilo) {
 
 function budgetCalculator(watch, phone, laptop) {
     if (laptop == null) {
-        return "Input a number of watch, phone & laptop you want to buy."
+        return "Input a number of watch, phone & laptop you want to buy.";
     }
     else if (watch % 1 != 0 || phone % 1 != 0 || laptop % 1 != 0) {
-        return "Enter integer numbers!"
+        return "Enter integer numbers!";
     }
     else if (watch < 0 || phone < 0 || laptop < 0) {
-        return "Input positive values!"
+        return "Input positive values!";
 
     }
     else {
@@ -47,7 +47,7 @@ function budgetCalculator(watch, phone, laptop) {
 
 function hotelCost(stay) {
     if (stay == null || stay < 0 || stay % 1 != 0) {
-        return "How many days you want to stay? Enter a positive integer number!"
+        return "How many days you want to stay? Enter a positive integer number!";
     }
     else if (stay <= 10) {
         var money = stay * 100;
@@ -67,7 +67,7 @@ function hotelCost(stay) {
         return totalMoney;
     }
     else {
-        return "Input an integer number!"
+        return "Input an integer number!";
     }
 }
 
@@ -76,7 +76,7 @@ function hotelCost(stay) {
 
 function megaFriend(string) {
     if (typeof (string) == "string" || typeof (string) == "number" || string == null) {
-        return "Enter an array of string as an input!"
+        return "Enter an array of string as an input!";
     }
     else if (string.length == 0) {
         return "You can't input an empty array!";
